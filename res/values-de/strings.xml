@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="app_name">"Datei-Manager"</string>
+	<!-- file/folder -->
+	<string name="file">"Datei"</string>
+	<string name="dir">"Ordner"</string>
+	<!-- menu -->
+	<string name="MenuAdd">"Neu"</string>
+	<string name="MenuSorting">"Sortierung"</string>
+	<string name="MenuEdit">"Bearbeiten"</string>
+	<string name="MenuProperty">"Eigenschaften"</string>
+	<string name="MenuSearch">"Suchen"</string>
+	<string name="MenuModeChange">"Anzeigemodus"</string>
+	<!-- dlg head -->
+	<string name="Rename">"Umbenennen"</string>
+	<string name="Delete">"Löschen"</string>
+	<string name="Zip">"Zippen"</string>
+	<!-- below button -->
+	<string name="MoveTo">"Verschieben nach"</string>
+	<string name="CopyTo">"Kopieren nach"</string>
+	<string name="paste">"Einfügen"</string>
+	<string name="no_space">Not enough space to paste.\nPlease check the space and try again.</string>
+	<string name="OK">"OK"</string>
+	<string name="Cancel">"Abbrechen"</string>
+	<!-- Toast msg -->
+	<string name="success">"Erfolg"</string>
+	<string name="failed">"Fehlgeschlagen"</string>
+	<!-- sorting type -->
+	<string name="Name">"Name"</string>
+	<string name="Type">"Typ"</string>
+	<string name="Size">"Größe"</string>
+	<string name="ModifyTime">"Änderungszeit"</string>
+	<!-- multiselect -->
+	<string name="SelectAll">"Alles wählen"</string>
+	<string name="noSelectPrompt">"Wählen Sie Dateien aus."</string>
+	<string name="deleteFilesConfirm">"Möchten Sie die Datei(en) wirklich löschen?"</string>
+	<!-- add folder dialogue -->
+	<string name="newPrompt">"Geben Sie einen Ordnernamen ein:"</string>
+	<string name="newInfor1">"Geben Sie bitte einen Namen ein."</string>
+	<string name="newInfor2">"Der Name darf \'/\' nicht enthalten.."</string>
+	<string name="newInfor3">"\'%s\' ist bereits vorhanden. Bitte umbenennen."</string>
+	<string name="Notice">"Hinweis"</string>
+	<string name="newConfirmMsg">"Möchten Sie \'%s\' wirklich erstellen?"</string>
+	<!-- copy/move -->
+	<string name="pasteInfor1">"Sie dürfen nicht in demselben Verzeichnis einfügen."</string>
+	<string name="pasteInfor2">"Sie dürfen nicht in einem Unterverzeichnis einfügen."</string>
+	<string name="pasteInfor3">"\'%s\' ist bereits vorhanden!"</string>
+	<string name="pasteInfor4">"Dieser Ordner ist schreibgeschützt."</string>
+	<!-- rename dlg -->
+	<string name="renamePrompt">"Geben Sie einen neuen Namen"</string>
+	<string name="ConfirmRename">"Umbenennung bestätigen"</string>
+	<string name="renameInfor1">"\'%s\' ist bereits vorhanden. Bitte umbenennen."</string>
+	<string name="renameInfor2">"Sie dürfen nicht mit demselben Namen umbenennen."</string>
+	<string name="renameInfor3">"Möchten Sie \'%1$s\' wirklich zu \'%2$s\' umbenennen?"</string>
+	<string name="renameInfor4">"Geben Sie passende Zeichen ein. \'/\' ist nicht zulässig."</string>
+	<!-- delete dlg -->
+	<string name="confirmDel">"Löschvorgang bestätigen"</string>
+	<string name="deleteInfor1">"Möchten Sie \'%s\' wirklich löschen?"</string>
+	<!-- property dlg -->
+	<string name="propertyStringBM1">"Name: %1$s \nTyp: %2$s\nGesamter Speicherplatz: %3$s\nVerfügbarer Speicherplatz: %4$s"</string>
+	<string name="propertyStringFile">"Name: %1$s \nTyp: Datei\nZugriffsbegrenzung: %2$s\nGröße: %3$s\nLetzte Änderungszeit: %4$s"</string>
+	<string name="propertyStringFolder">"Name: %1$s \nTyp: Ordner\nZugriffsbegrenzung: %2$s\nGröße: %3$s\nEnthält:: %4$s"</string>
+	<!-- unzip dlg -->
+	<string name="unzip">"Entzippen"</string>
+	<string name="unzipHere">"Hier entzippen"</string>
+	<string name="unzipToFolder">"Im Ordner %s entzippen"</string>
+	<string name="zipError">"Ein Fehler trat bei der Zip-Datei auf."</string>
+	<string name="unzipWarning1">"Eine Datei oder ein Ordner mit demselben Namen ist bereits vorhanden. Möchten Sie sie(ihn) überschreiben?"</string>
+	<!-- progress msg -->
+	<string name="waiting">"In Wartestellung …"</string>
+	<string name="canotMove">"Dies kann nicht verschoben werden."</string>
+	<string name="moveWaiting">"Wird verschoben… Bitte warten."</string>
+	<string name="copyWaiting">"Wird kopiert… Bitte warten."</string>
+	<string name="deleteWaiting">"Wird gelöscht… Bitte warten."</string>
+	<string name="searchWaiting">"Wird gesucht… Bitte warten."</string>
+	<string name="zipWaiting">"Bitte warten."</string>
+	<!-- search dlg -->
+	<string name="searchPrompt">"Geben Sie einen zu suchenden Namen ein:"</string>
+	<string name="searchError1">"Fehler beim Dateinamen. Bitte prüfen."</string>
+	<string name="searchNoResult">"Nicht gefunden"</string>
+	<!-- zip dlg -->
+	<string name="zipSuffix">".zip"</string>
+	<string name="zipInfo1">"Geben Sie einen Namen ein"</string>
+	<string name="zipInfo2">"Möchten Sie die Datei zippen?"</string>
+	<!-- current directory -->
+	<string name="dirInfor">"Verzeichnis: %s"</string>
+	<!-- storage name -->
+	<string name="internalStorage">"Interner Speicher"</string>
+	<string name="externalCard">"Speicherkarte"</string>
+	<string name="usbStorage">"USB-Speichergerät"</string>
+	<string-array name="fileLongClickMenu">
+		<item>"Kopieren"</item>
+		<item>"Verschieben"</item>
+		<item>"Umbenennen"</item>
+		<item>"Löschen"</item>
+		<item>"Zippen"</item>
+		<item>"Öffnen mit"</item>
+		<item>"Eigenschaften"</item>
+	</string-array>
+	<string-array name="folderLongClickMenu">
+		<item>"Kopieren"</item>
+		<item>"Verschieben"</item>
+		<item>"Umbenennen"</item>
+		<item>"Löschen"</item>
+		<item>"Zippen"</item>
+		<item>"Eigenschaften"</item>
+	</string-array>
+	<string-array name="editList">
+		<item>"Kopieren"</item>
+		<item>"Verschieben"</item>
+		<item>"Löschen"</item>
+		<item>"Zippen"</item>
+	</string-array>
+</resources>

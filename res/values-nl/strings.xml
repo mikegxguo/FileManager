@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="app_name">"Bestandsbeheer"</string>
+	<!-- file/folder -->
+	<string name="file">"Bestand"</string>
+	<string name="dir">"Map"</string>
+	<!-- menu -->
+	<string name="MenuAdd">"Nieuw"</string>
+	<string name="MenuEdit">"Bewerken"</string>
+	<string name="MenuSorting">"Sorteren"</string>
+	<string name="MenuProperty">"Eigenschappen"</string>
+	<string name="MenuSearch">"Zoeken"</string>
+	<string name="MenuModeChange">"Weergavemodus"</string>
+	<!-- dlg head -->
+	<string name="Rename">"Naam wijzigen"</string>
+	<string name="Delete">"Verwijderen"</string>
+	<string name="Zip">"Inpakken"</string>
+	<!-- below button -->
+	<string name="MoveTo">"Verplaatsen naar"</string>
+	<string name="CopyTo">"Kopiëren naar"</string>
+	<string name="paste">"Plakken"</string>
+	<string name="no_space">Not enough space to paste.\nPlease check the space and try again.</string>
+	<string name="OK">"OK"</string>
+	<string name="Cancel">"Annuleren"</string>
+	<!-- Toast msg -->
+	<string name="success">"Succes"</string>
+	<string name="failed">"Mislukt"</string>
+	<!-- sorting type -->
+	<string name="Name">"Naam"</string>
+	<string name="Type">"Type"</string>
+	<string name="Size">"Grootte"</string>
+	<string name="ModifyTime">"Tijdstip van bewerken"</string>
+	<!-- multiselect -->
+	<string name="SelectAll">"Alles selecteren"</string>
+	<string name="noSelectPrompt">"Bestanden selecteren."</string>
+	<string name="deleteFilesConfirm">"Weet u zeker dat u het bestand of de bestanden wilt verwijderen?"</string>
+	<!-- add folder dialogue -->
+	<string name="newPrompt">"EVoer een naam in voor een map:"</string>
+	<string name="newInfor1">"Voer een naam in."</string>
+	<string name="newInfor2">"De naam mag geen  \'/\' bevatten."</string>
+	<string name="newInfor3">"\'%s\' bestaat reeds. Wijzig de naam."</string>
+	<string name="Notice">"Melding"</string>
+	<string name="newConfirmMsg">"Wilt u \'%s\' echt creëren? "</string>
+	<!-- copy/move -->
+	<string name="pasteInfor1">"U kunt niet in dezelfde map plakken."</string>
+	<string name="pasteInfor2">"U kunt niet in een onderliggende map plakken."</string>
+	<string name="pasteInfor3">"\'%s\' bestaat reeds!"</string>
+	<string name="pasteInfor4">"In deze map kan niet worden geschreven."</string>
+	<!-- rename dlg -->
+	<string name="renamePrompt">"Voer een nieuwe naam in:"</string>
+	<string name="ConfirmRename">"Wijziging naam bevestigen"</string>
+	<string name="renameInfor1">"\'%s\' bestaat reeds. Wijzig de naam."</string>
+	<string name="renameInfor2">"U kunt bij het wijzigen van de naam niet dezelfde naam gebruiken."</string>
+	<string name="renameInfor3">"Wilt u de naam \'%2$s\' echt wijzigen in \'%1$s\'?"</string>
+	<string name="renameInfor4">"Voer toegestane tekens in. \'/\' is niet toegestaan."</string>
+	<!-- delete dlg -->
+	<string name="confirmDel">"Verwijderen bevestigen"</string>
+	<string name="deleteInfor1">"Wilt u \'%s\' echt verwijderen?"</string>
+	<!-- property dlg -->
+	<string name="propertyStringBM1">"Naam: %1$s \nType: %2$s\nTotale ruimte: %3$s\nBeschikbare ruimte: %4$s"</string>
+	<string name="propertyStringFile">"Naam: %1$s \nType: Bestand\nToegangsbeperking: %2$s\nGrootte: %3$s\nTijdstip laatste bewerking: %4$s"</string>
+	<string name="propertyStringFolder">"Naam: %1$s \nType: Map\nToegangsbeperking: %2$s\nGrootte: %3$s\nBevat:: %4$s"</string>
+	<!-- unzip dlg -->
+	<string name="unzip">"Uitpakken"</string>
+	<string name="unzipHere">"Hier uitpakken"</string>
+	<string name="unzipToFolder">"Uitpakken naar map %s"</string>
+	<string name="zipError">"Er is een fout opgetreden met het zip-bestand."</string>
+	<string name="unzipWarning1">"Er bestaat al een bestand of map met dezelfde naam. Wilt u deze overschrijven?"</string>
+	<!-- progress msg -->
+	<string name="waiting">"Aan het wachten…"</string>
+	<string name="canotMove">"Dit kan niet worden verplaatst."</string>
+	<string name="moveWaiting">"Verplaatsen… een ogenblik geduld."</string>
+	<string name="copyWaiting">"Kopiëren... een ogenblik geduld."</string>
+	<string name="deleteWaiting">"Verwijderen… een ogenblik geduld."</string>
+	<string name="searchWaiting">"Zoeken… een ogenblik geduld."</string>
+	<string name="zipWaiting">"een ogenblik geduld."</string>
+	<!-- search dlg -->
+	<string name="searchPrompt">"Voer een naam in om hiernaar te zoeken:"</string>
+	<string name="searchError1">"Fout in bestandsnaam. Controleer dit."</string>
+	<string name="searchNoResult">"Niet gevonden"</string>
+	<!-- zip dlg -->
+	<string name="zipSuffix">".zip"</string>
+	<string name="zipInfo1">"EVoer een naam in om hiernaar te zoeken:"</string>
+	<string name="zipInfo2">"Wilt u het bestand inpakken?"</string>
+	<!-- current directory -->
+	<string name="dirInfor">"Map: %s"</string>
+	<!-- storage name -->
+	<string name="internalStorage">"Interne opslag"</string>
+	<string name="externalCard">"Geheugenkaart"</string>
+	<string name="usbStorage">"USB-opslag"</string>
+	<string-array name="fileLongClickMenu">
+		<item>"Kopiëren"</item>
+		<item>"Verplaatsen"</item>
+		<item>"Naam wijzigen"</item>
+		<item>"Verwijderen"</item>
+		<item>"Inpakken"</item>
+		<item>"Openen met"</item>
+		<item>"Eigenschappen"</item>
+	</string-array>
+	<string-array name="folderLongClickMenu">
+		<item>"Kopiëren"</item>
+		<item>"Verplaatsen"</item>
+		<item>"Naam wijzigen"</item>
+		<item>"Verwijderen"</item>
+		<item>"Inpakken"</item>
+		<item>"Eigenschappen"</item>
+	</string-array>
+	<string-array name="editList">
+		<item>"Kopiëren"</item>
+		<item>"Verplaatsen"</item>
+		<item>"Verwijderen"</item>
+		<item>"Inpakken"</item>
+	</string-array>
+</resources>

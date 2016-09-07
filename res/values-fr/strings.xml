@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="app_name">"Gestionnaire de fichiers"</string>
+	<!-- file/folder -->
+	<string name="file">"Fichier"</string>
+	<string name="dir">"Dossier"</string>
+	<!-- menu -->
+	<string name="MenuAdd">"Nouveau"</string>
+	<string name="MenuSorting">"Classement"</string>
+	<string name="MenuEdit">"Editer"</string>
+	<string name="MenuProperty">"Propriétés"</string>
+	<string name="MenuSearch">"Rechercher"</string>
+	<string name="MenuModeChange">"Mode d\'affichage"</string>
+	<!-- dlg head -->
+	<string name="Rename">"Renommer"</string>
+	<string name="Delete">"Supprimer"</string>
+	<string name="Zip">"Compresser"</string>
+	<!-- below button -->
+	<string name="MoveTo">"Déplacer vers"</string>
+	<string name="CopyTo">"Copier vers"</string>
+	<string name="paste">"Coller"</string>
+	<string name="no_space">Not enough space to paste.\nPlease check the space and try again.</string>
+	<string name="OK">"OK"</string>
+	<string name="Cancel">"Annuler"</string>
+	<!-- Toast msg -->
+	<string name="success">"Réussite"</string>
+	<string name="failed">"Echec"</string>
+	<!-- sorting type -->
+	<string name="Name">"Nom"</string>
+	<string name="Type">"Type"</string>
+	<string name="Size">"Taille"</string>
+	<string name="ModifyTime">"Heure de modification"</string>
+	<!-- multiselect -->
+	<string name="SelectAll">"Sélectionner tout"</string>
+	<string name="noSelectPrompt">"Sélectionner des fichiers."</string>
+	<string name="deleteFilesConfirm">"Etes-vous sûr de vouloir supprimer ces fichiers?"</string>
+	<!-- add folder dialogue -->
+	<string name="newPrompt">"Entrer un nom de dossier:"</string>
+	<string name="newInfor1">"Veuillez entrer un nom."</string>
+	<string name="newInfor2">"Le nom ne peut pas contenir \'/\'."</string>
+	<string name="newInfor3">"\'%s\' existe déjà. Veuillez renommer."</string>
+	<string name="Notice">"Note"</string>
+	<string name="newConfirmMsg">"Etes-vous sûr de vouloir créer \'%s\'? "</string>
+	<!-- copy/move -->
+	<string name="pasteInfor1">"Vous ne pouvez pas coller dans le même répertoire."</string>
+	<string name="pasteInfor2">"Vous ne pouvez pas coller dans un sous-répertoire."</string>
+	<string name="pasteInfor3">"\'%s\' existe déjà!"</string>
+	<string name="pasteInfor4">"Ce dossier n\'est pas inscriptible."</string>
+	<!-- rename dlg -->
+	<string name="renamePrompt">"Entrer un nouveau nom:"</string>
+	<string name="ConfirmRename">"Confirmer le nouveau nom"</string>
+	<string name="renameInfor1">"\'%s\' existe déjà. Veuillez renommer."</string>
+	<string name="renameInfor2">"Vous ne pouvez pas renommer avec le même nom."</string>
+	<string name="renameInfor3">"Etes-vous sûr de vouloir renommer \'%1$s\' en \'%2$s\'?"</string>
+	<string name="renameInfor4">"Veuillez entrer des caractères valides. \'/\' est interdit."</string>
+	<!-- delete dlg -->
+	<string name="confirmDel">"Confirmer la suppression"</string>
+	<string name="deleteInfor1">"Etes-vous sûr de vouloir supprimer \'%s\' ?"</string>
+	<!-- property dlg -->
+	<string name="propertyStringBM1">"Nom: %1$s \nType: %2$s\nEspace total: %3$s\nEspace disponible: %4$s"</string>
+	<string name="propertyStringFile">"Nom: %1$s \nType: Fichier\nLimite d\'accès: %2$s\nTaille: %3$s\nDernière heure de modification: %4$s"</string>
+	<string name="propertyStringFolder">"Nom: %1$s \nType: Dossier\nLimite d\'accès: %2$s\nTaille: %3$s\nContient: %4$s"</string>
+	<!-- unzip dlg -->
+	<string name="unzip">"Décompresser"</string>
+	<string name="unzipHere">"Décompresser ici"</string>
+	<string name="unzipToFolder">"Décompresser dans le dossier %s"</string>
+	<string name="zipError">"Une erreur est survenue avec le fichier de compression."</string>
+	<string name="unzipWarning1">"Un fichier ou un dossier avec un nom identique existe déjà. Voulez-vous l\'écraser?"</string>
+	<!-- progress msg -->
+	<string name="waiting">"En attente…"</string>
+	<string name="canotMove">"Cet élément ne peut pas être déplacé."</string>
+	<string name="moveWaiting">"Déplacement… Veuillez patienter."</string>
+	<string name="copyWaiting">"Copie… Veuillez patienter."</string>
+	<string name="deleteWaiting">"Suppression… Veuillez patienter."</string>
+	<string name="searchWaiting">"Recherche… Veuillez patienter."</string>
+	<string name="zipWaiting">"Veuillez patienter."</string>
+	<!-- search dlg -->
+	<string name="searchPrompt">"Entrer un nouveau nom de recherche:"</string>
+	<string name="searchError1">"Erreur de nom de fichier. Veuillez vérifier."</string>
+	<string name="searchNoResult">"Non trouvé"</string>
+	<!-- zip dlg -->
+	<string name="zipSuffix">".zip"</string>
+	<string name="zipInfo1">"Entrer un nom"</string>
+	<string name="zipInfo2">"Voulez-vous compresser ce fichier?"</string>
+	<!-- current directory -->
+	<string name="dirInfor">"Répertoire:%s"</string>
+	<!-- storage name -->
+	<string name="internalStorage">"Stockage interne"</string>
+	<string name="externalCard">"Carte mémoire"</string>
+	<string name="usbStorage">"Stockage USB"</string>
+	<string-array name="fileLongClickMenu">
+		<item>"Copier"</item>
+		<item>"Déplacer"</item>
+		<item>"Renommer"</item>
+		<item>"Supprimer"</item>
+		<item>"Compresser"</item>
+		<item>"Ouvrir avec"</item>
+		<item>"Propriétés"</item>
+	</string-array>
+	<string-array name="folderLongClickMenu">
+		<item>"Copier"</item>
+		<item>"Déplacer"</item>
+		<item>"Renommer"</item>
+		<item>"Supprimer"</item>
+		<item>"Compresser"</item>
+		<item>"Propriétés"</item>
+	</string-array>
+	<string-array name="editList">
+		<item>"Copier"</item>
+		<item>"Déplacer"</item>
+		<item>"Supprimer"</item>
+		<item>"Compresser"</item>
+	</string-array>
+</resources>

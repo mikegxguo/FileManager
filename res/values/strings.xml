@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="app_name">File Manager</string>
+	<!-- file/folder -->
+	<string name="file">File</string>
+	<string name="dir">Folder</string>
+	<!-- menu -->
+	<string name="MenuAdd">New</string>
+	<string name="MenuSorting">Sorting</string>
+	<string name="MenuEdit">Edit</string>
+	<string name="MenuProperty">Properties</string>
+	<string name="MenuSearch">Search</string>
+	<string name="MenuModeChange">Display Mode</string>
+	<!-- dlg head -->
+	<string name="Rename">Rename</string>
+	<string name="Delete">Delete</string>
+	<string name="Zip">Zip</string>
+	<!-- below button -->
+	<string name="MoveTo">Move To</string>
+	<string name="CopyTo">Copy To</string>
+	<string name="paste">Paste</string>
+	<string name="no_space">Not enough space to paste.\nPlease check the space and try again.</string>
+	<string name="OK">OK</string>
+	<string name="Cancel">Cancel</string>
+	<!-- Toast msg -->
+	<string name="success">Success</string>
+	<string name="failed">Failed</string>
+	<!-- sorting type -->
+	<string name="Name">Name</string>
+	<string name="Type">Type</string>
+	<string name="Size">Size</string>
+	<string name="ModifyTime">Modify Time</string>
+	<!-- multiselect -->
+	<string name="SelectAll">Select All</string>
+	<string name="noSelectPrompt">Select files.</string>
+	<string name="deleteFilesConfirm">Are you sure you want to delete the files?</string>
+	<!-- add folder dialogue -->
+	<string name="newPrompt">Enter a folder name:</string>
+	<string name="newInfor1">Please enter a name.</string>
+	<string name="newInfor2">The name cannot include \'/\'.</string>
+	<string name="newInfor3">\'%s\' already exists. Please rename.</string>
+	<string name="Notice">Notice</string>
+	<string name="newConfirmMsg">Are you sure you want to create \'%s\'? </string>
+	<!-- copy/move -->
+	<string name="pasteInfor1">You cannot paste in the same directory.</string>
+	<string name="pasteInfor2">You cannot paste in a sub-directory.</string>
+	<string name="pasteInfor3">\'%s\' already exists!</string>
+	<string name="pasteInfor4">This folder is not writable.</string>
+   <!-- +fix bugid: SC4365 existing file or directory cannot be replaced issue # frank527.lin # Nov 19, 2013 -->
+   <string name="confirmReplace">Confirm Replace</string>
+	<string name="replaceInfor1">Are you sure you want to replace \'%s\' ?</string>
+   <!-- -fix bugid: SC4365 # frank527.lin # Nov 19, 2013 -->
+	<!-- rename dlg -->
+	<string name="renamePrompt">Enter a new name:</string>
+	<string name="ConfirmRename">Confirm Rename</string>
+	<string name="renameInfor1">\'%s\' already exists. Please rename.</string>
+	<string name="renameInfor2">You cannot rename to the same name.</string>
+	<string name="renameInfor3">Are you sure you want to rename \'%1$s\' to \'%2$s\'?</string>
+	<string name="renameInfor4">Enter proper characters. \'/\' is not allowed.</string>
+	<!-- delete dlg -->
+	<string name="confirmDel">Confirm Delete</string>
+	<string name="deleteInfor1">Are you sure you want to delete \'%s\' ?</string>
+	<!-- property dlg -->
+	<string name="propertyStringBM1">Name: %1$s \nType: %2$s\nTotal Space: %3$s\nAvailable space: %4$s</string>
+	<string name="propertyStringFile">Name: %1$s \nType: File\nAccess Limit: %2$s\nSize: %3$s\nLast Modify Time: %4$s</string>
+	<string name="propertyStringFolder">Name: %1$s \nType: Folder\nAccess Limit: %2$s\nSize: %3$s\nContain: %4$s</string>
+	<!-- unzip dlg -->
+	<string name="unzip">Unzip</string>
+	<string name="unzipHere">Unzip here</string>
+	<string name="unzipToFolder">Unzip to folder %s</string>
+	<string name="zipError">Error occurred with the zip file.</string>
+	<string name="unzipWarning1">A file or folder with the same name already exists. Do you want to overwrite it?</string>
+	<!-- progress msg -->
+	<string name="waiting">Waiting ...</string>
+	<string name="canotMove">This cannot be moved.</string>
+	<string name="moveWaiting">Moving… Please wait.</string>
+	<string name="copyWaiting">Copying… Please wait.</string>
+	<string name="deleteWaiting">Deleting… Please wait.</string>
+	<string name="searchWaiting">Searching… Please wait.</string>
+	<string name="zipWaiting">Please wait.</string>
+	<!-- search dlg -->
+	<string name="searchPrompt">Enter a name to search:</string>
+	<string name="searchError1">Filename error. Please check.</string>
+	<string name="searchNoResult">Not found</string>
+	<!-- zip dlg -->
+	<string name="zipSuffix">.zip</string>
+	<string name="zipInfo1">Enter a name</string>
+	<string name="zipInfo2">Do you want to zip the file?</string>
+	<!-- current directory -->
+	<string name="dirInfor">Directory: %s</string>
+	<!-- storage name -->
+	<string name="internalStorage">Internal storage</string>
+	<string name="externalCard">SD card</string>
+	<string name="usbStorage">USB Storage</string>
+	<!-- +frank527.lin #bugid:263 # Aug 1, 2012  -->
+	<string name="usb2Storage">Cradle USB Storage</string>
+        <string name="microsdCard">MicroSD card</string>
+	<string-array name="fileLongClickMenu">
+		<item>Copy</item>
+		<item>Move</item>
+		<item>Rename</item>
+		<item>Delete</item>
+		<item>Zip</item>
+		<item>Open With</item>
+		<item>Properties</item>
+	</string-array>
+	<string-array name="folderLongClickMenu">
+		<item>Copy</item>
+		<item>Move</item>
+		<item>Rename</item>
+		<item>Delete</item>
+		<item>Zip</item>
+		<item>Properties</item>
+	</string-array>
+	<string-array name="editList">
+		<item>Copy</item>
+		<item>Move</item>
+		<item>Delete</item>
+		<item>Zip</item>
+	</string-array>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="app_name">"ファイルマネージャー"</string>
+	<!-- file/folder -->
+	<string name="file">"ファイル"</string>
+	<string name="dir">"フォルダ"</string>
+	<!-- menu -->
+	<string name="MenuAdd">"新規"</string>
+	<string name="MenuSorting">"並び替え"</string>
+	<string name="MenuEdit">"編集"</string>
+	<string name="MenuProperty">"プロパティ"</string>
+	<string name="MenuSearch">"検索"</string>
+	<string name="MenuModeChange">"画面切り替え"</string>
+	<!-- dlg head -->
+	<string name="Rename">"名前の変更"</string>
+	<string name="Delete">"削除"</string>
+	<string name="Zip">"圧縮"</string>
+	<!-- below button -->
+	<string name="MoveTo">"移動先"</string>
+	<string name="CopyTo">"コピー先"</string>
+	<string name="paste">"貼り付け"</string>
+	<string name="no_space">Not enough space to paste.\nPlease check the space and try again.</string>
+	<string name="OK">"OK"</string>
+	<string name="Cancel">"キャンセル"</string>
+	<!-- Toast msg -->
+	<string name="success">"成功"</string>
+	<string name="failed">"失敗"</string>
+	<!-- sorting type -->
+	<string name="Name">"名前"</string>
+	<string name="Type">"タイプ"</string>
+	<string name="Size">"サイズ"</string>
+	<string name="ModifyTime">"修正時間"</string>
+	<!-- multiselect -->
+	<string name="SelectAll">"すべて選択"</string>
+	<string name="noSelectPrompt">"ファイルを選択します。"</string>
+	<string name="deleteFilesConfirm">"ファイルを削除しますか?"</string>
+	<!-- add folder dialogue -->
+	<string name="newPrompt">"フォルダ名の入力:"</string>
+	<string name="newInfor1">"名前を入力してください!"</string>
+	<string name="newInfor2">"名前に\'/\'を含めることはできません。"</string>
+	<string name="newInfor3">"\'%s\'はすでに 存在します。名前を変更してください。"</string>
+	<string name="Notice">"通知"</string>
+	<string name="newConfirmMsg">"\'%s\'を作成しますか?"</string>
+	<!-- copy/move -->
+	<string name="pasteInfor1">"同じディレクトリに貼り付けることはできません。"</string>
+	<string name="pasteInfor2">"サブディレクトリに貼り付けることはできません。"</string>
+	<string name="pasteInfor3">"\'%s\' はすでに 存在します!"</string>
+	<string name="pasteInfor4">"このフォルダは書き込みできません。"</string>
+	<!-- rename dlg -->
+	<string name="renamePrompt">"新規名の入力:"</string>
+	<string name="ConfirmRename">"名前の変更の確認"</string>
+	<string name="renameInfor1">"\'%s\'はすでに 存在します。名前を変更してください。"</string>
+	<string name="renameInfor2">"同じ名前に名前を変更することはできません 。"</string>
+	<string name="renameInfor3">"\'%1$s\'の名前を\'%2$s\'に変更しますか?"</string>
+	<string name="renameInfor4">"適切な文字を入力してください。\'/\'は許可されません。"</string>
+	<!-- delete dlg -->
+	<string name="confirmDel">"削除の確認"</string>
+	<string name="deleteInfor1">"\'%s\'を削除しますか?"</string>
+	<!-- property dlg -->
+	<string name="propertyStringBM1">"名前: %1$s \nタイプ: %2$s\n全空間: %3$s\n利用可能空間: %4$s"</string>
+	<string name="propertyStringFile">"名前: %1$s \nタイプ: ファイル\nアクセス制限: %2$s\nサイズ: %3$s\n最終修正時間: %4$s"</string>
+	<string name="propertyStringFolder">"名前: %1$s \nタイプ: フォルダ\nアクセス制限: %2$s\nサイズ: %3$s\n構成: %4$s"</string>
+	<!-- unzip dlg -->
+	<string name="unzip">"解凍"</string>
+	<string name="unzipHere">"ここに解凍する"</string>
+	<string name="unzipToFolder">"フォルダ%sに解凍する"</string>
+	<string name="zipError">"ジップファイルでエラーが発生しました。"</string>
+	<string name="unzipWarning1">"同じ名前のファイルまたはフォルダがすでに存在します。上書きしますか?"</string>
+	<!-- progress msg -->
+	<string name="waiting">"待機中 …"</string>
+	<string name="canotMove">"これを移動することはできません。"</string>
+	<string name="moveWaiting">"移動中です… お待ちください。"</string>
+	<string name="copyWaiting">"コピー中です… お待ちください。"</string>
+	<string name="deleteWaiting">"削除中です… お待ちください。"</string>
+	<string name="searchWaiting">"検索中です… お待ちください。"</string>
+	<string name="zipWaiting">"お待ちください。"</string>
+	<!-- search dlg -->
+	<string name="searchPrompt">"検索する名前の入力:"</string>
+	<string name="searchError1">"ファイル名エラー。確認してください。"</string>
+	<string name="searchNoResult">"見つかりませんでした"</string>
+	<!-- zip dlg -->
+	<string name="zipInfo1">"名前を入力します"</string>
+	<string name="zipInfo2">"ファイルを圧縮しますか?"</string>
+	<!-- current directory -->
+	<string name="dirInfor">"ディレクトリ: %s"</string>
+	<!-- storage name -->
+	<string name="internalStorage">"内部ストレージ"</string>
+	<string name="externalCard">"メモリカード"</string>
+	<string name="usbStorage">"USBストレージ"</string>
+	<string-array name="fileLongClickMenu">
+		<item>"コピー"</item>
+		<item>"移動"</item>
+		<item>"名前の変更"</item>
+		<item>"削除"</item>
+		<item>"圧縮"</item>
+		<item>"開く対象"</item>
+		<item>"プロパティ"</item>
+	</string-array>
+	<string-array name="folderLongClickMenu">
+		<item>"コピー"</item>
+		<item>"移動"</item>
+		<item>"名前の変更"</item>
+		<item>"削除"</item>
+		<item>"圧縮"</item>
+		<item>"プロパティ"</item>
+	</string-array>
+	<string-array name="editList">
+		<item>"コピー"</item>
+		<item>"移動"</item>
+		<item>"削除"</item>
+		<item>"圧縮"</item>
+	</string-array>
+</resources>

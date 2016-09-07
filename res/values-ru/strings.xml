@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+<!--MIC Sky.Lin, 20110825 Updated strings for Russian languages.-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="app_name">"Файл-менеджер"</string>
+	<!-- file/folder -->
+	<string name="file">"Файл"</string>
+	<string name="dir">"Каталог"</string>
+	<!-- menu -->
+	<string name="MenuAdd">"Новый"</string>
+	<string name="MenuSorting">"Сортировка"</string>
+	<string name="MenuEdit">"Редактировать"</string>
+	<string name="MenuProperty">"Свойства"</string>
+	<string name="MenuSearch">"Поиск"</string>
+	<string name="MenuModeChange">"Режим экрана"</string>
+	<!-- dlg head -->
+	<string name="Rename">"Переименовать"</string>
+	<string name="Delete">"Удалить"</string>
+	<string name="Zip">"Сжать"</string>
+	<!-- below button -->
+	<string name="MoveTo">"Переместить в"</string>
+	<string name="CopyTo">"Скопировать в"</string>
+	<string name="paste">"Вставить"</string>
+	<string name="no_space">Not enough space to paste.\nPlease check the space and try again.</string>
+	<string name="OK">"ОК"</string>
+	<string name="Cancel">"Отмена"</string>
+	<!-- Toast msg -->
+	<string name="success">"Успешно"</string>
+	<string name="failed">"Неудачно"</string>
+	<!-- sorting type -->
+	<string name="Name">"Имя"</string>
+	<string name="Type">"Тип"</string>
+	<string name="Size">"Размер"</string>
+	<string name="ModifyTime">"Изменить Время"</string>
+	<!-- multiselect -->
+	<string name="SelectAll">"Выбрать все"</string>
+	<string name="noSelectPrompt">"Выберите файлы"</string>
+	<string name="deleteFilesConfirm">"Вы уверенны, что хотите удалить файл(ы)?"</string>
+	<!-- add folder dialogue -->
+	<string name="newPrompt">"Введите имя каталога:"</string>
+	<string name="newInfor1">"Пожалуйста, введите имя."</string>
+	<string name="newInfor2">"Имя не может содержать \'/\'."</string>
+	<string name="newInfor3">"\'%s\' уже существует. Пожалуйста, переименуйте."</string>
+								
+	<string name="Notice">"Примечание"</string>
+	<string name="newConfirmMsg">"Вы уверенны, что хотите создать \'%s\'?"</string>
+									
+	<!-- copy/move -->
+	<string name="pasteInfor1">"Невозможно скопировать/переместить в тот же каталог"</string>
+	<string name="pasteInfor2">"Невозможно скопировать/переместить в подкаталог"</string>
+	<string name="pasteInfor3">"\'%s\' уже существует!"</string>
+	<string name="pasteInfor4">"Каталог только для чтения."</string>
+	<!-- rename dlg -->
+	<string name="renamePrompt">"Введите новое имя:"</string>
+	<string name="ConfirmRename">"Подтвердите переименование"</string>
+	<string name="renameInfor1">"\'%s\' уже существует. Пожалуйста, переименуйте."</string>
+	<string name="renameInfor2">"Невозможно переименовать в то же имя."</string>
+	<string name="renameInfor3">"Вы уверенны, что хотите переименовать \'%1$s\' в \'%2$s\'?"</string>
+	<string name="renameInfor4">"Имя не может содержать \'/\'."</string>
+									
+	<!-- delete dlg -->
+	<string name="confirmDel">"Подтвердите удаление"</string>
+	<string name="deleteInfor1">"Вы уверенны, что хотите удалить \'%s\'?"</string>
+	<!-- property dlg -->
+	<string name="propertyStringBM1">"Имя: %1$s \nТип: %2$s\nВсего места: %3$s\nДоступное место: %4$s"</string>
+	<string name="propertyStringFile">"Имя: %1$s \nТип: Файл\nОграничение: %2$s\nРазмер: %3$s\nВремя последнего изменения: %4$s"</string>
+	<string name="propertyStringFolder">"Имя: %1$s \nТип: Каталог\nОграничение: %2$s\nРазмер: %3$s\nСодержит: %4$s"</string>
+
+
+	<!-- unzip dlg -->
+	<string name="unzip">"Разархивировать"</string>
+	<string name="unzipHere">"Разархивировать в этот каталог"</string>
+	<string name="unzipToFolder">"Разархивировать в каталог %s"</string>
+	<string name="zipError">"Ошибка в файле архива"</string>
+	<string name="unzipWarning1">"Файл или каталог с таким именем уже существуют. Хотите перезаписать?"</string>
+	<!-- progress msg -->
+	<string name="waiting">"Ожидание…"</string>
+	<string name="canotMove">"This cannot be moved."</string>
+	<string name="moveWaiting">"Перемещаем… Пожалуйста, подождите."</string>
+	<string name="copyWaiting">"Копируем… Пожалуйста, подождите."</string>
+	<string name="deleteWaiting">"Удаляем… Пожалуйста, подождите."</string>
+	<string name="searchWaiting">"Идет поиск… Пожалуйста, подождите."</string>
+	<!-- search dlg -->
+	<string name="searchPrompt">"Введите имя для поиска:"</string>
+	<string name="searchError1">"Ошибка в имени файла."</string>
+	<string name="searchNoResult">"Не найдено"</string>
+	<!-- zip dlg -->
+	<string name="zipSuffix">".zip"</string>
+	<string name="zipInfo1">"Введите имя"</string>
+	<string name="zipInfo2">"Вы хотите сжать файл?"</string>
+	<!-- current directory -->
+	<string name="dirInfor">"Каталог: %s"</string>
+	<string-array name="fileLongClickMenu">
+		<item>"Копировать"</item>
+		<item>"Переместить"</item>
+		<item>"Переименовать"</item>
+		<item>"Удалить"</item>
+		<item>"Сжать"</item>
+		<item>"Открыть с помощью"</item>
+		<item>"Свойства"</item>
+	</string-array>
+	<string-array name="folderLongClickMenu">
+		<item>"Копировать"</item>
+		<item>"Переместить"</item>
+		<item>"Переименовать"</item>
+		<item>"Удалить"</item>
+		<item>"Сжать"</item>
+		<item>"Свойства"</item>
+	</string-array>
+	<string-array name="editList">
+		<item>"Копировать"</item>
+		<item>"Переместить"</item>
+		<item>"Удалить"</item>
+		<item>"Сжать"</item>
+	</string-array>
+</resources>
+<!--MIC Sky.Lin, 20110825 -->

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width ="fill_parent"
+  	android:layout_height="fill_parent"
+  	android:orientation="horizontal"
+  	android:background="#ffffffff">
+	<RadioGroup android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  android:orientation="vertical"
+	  android:id="@+id/sortingTypeGroup"
+	  android:layout_alignParentRight="true">
+	  		<RadioButton android:id="@+id/sortingTypeName"
+	  			android:text="@string/Name"
+	  			android:textSize="20sp"
+				android:textColor="#ff000000"
+				android:layout_weight="1"/>
+	 		<RadioButton android:id="@+id/sortingTypeType"
+	 			android:text="@string/Type"
+	 			android:textSize="20sp"
+				android:textColor="#ff000000"
+				android:layout_weight="1"/>
+			<RadioButton android:id="@+id/sortingTypeSize"
+				android:text="@string/Size"  
+				android:textSize="20sp"
+				android:textColor="#ff000000"
+				android:layout_weight="1"/>
+			<RadioButton android:id="@+id/sortingTypeModifyTime"
+				android:text="@string/ModifyTime"
+				android:textSize="20sp"
+				android:textColor="#ff000000"
+				android:layout_weight="1"/>
+	</RadioGroup>
+</RelativeLayout>
