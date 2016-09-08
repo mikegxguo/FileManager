@@ -241,7 +241,7 @@ public class editService extends Service {
                 }
                 mDealFiles = null;
             }
-            FMUtil.sendStorageIntent(editService.this);
+            //FMUtil.sendStorageIntent(editService.this);
             unlockSuspend();
             mStatus = status_isIdle;
             Log.i(LOGTAG, "copy end: " + mResult);
@@ -291,7 +291,7 @@ public class editService extends Service {
                 mDealFiles = null;
             }
             //Send Storgae mounted broadcast to rescan the files or folders
-            FMUtil.sendStorageIntent(editService.this);
+            //FMUtil.sendStorageIntent(editService.this);
             unlockSuspend();
             mStatus = status_isIdle;
             Log.i(LOGTAG, "move end:" + mResult);
@@ -329,7 +329,7 @@ public class editService extends Service {
                 mDealFiles = null;
             }
             //Send Storgae mounted broadcast to rescan the files or folders
-            FMUtil.sendStorageIntent(editService.this);
+            //FMUtil.sendStorageIntent(editService.this);
             unlockSuspend();
             mStatus = status_isIdle;
             Log.i(LOGTAG, "delete end:" + mResult);
